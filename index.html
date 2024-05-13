@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markdown en HTML</title>
+<script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+</head>
+<body>
+
+<div id="contenido-md">
+  <!-- Aquí se insertará el contenido del archivo Markdown -->
+</div>
+
+<script>
+// URL del archivo Markdown
+var urlMarkdown = '/texto.md';
+
+// Fetch para obtener el contenido del archivo Markdown
+fetch(urlMarkdown)
+  .then(response => response.text())
+  .then(contenidoMarkdown => {
+    // Convertir el Markdown a HTML y mostrarlo en la página
+    var md = window.markdownit();
+    document.getElementById('contenido-md').innerHTML = md.render(contenidoMarkdown);
+  })
+  .catch(error => console.error('Error al obtener el archivo Markdown:', error));
+</script>
+
+</body>
+</html>
