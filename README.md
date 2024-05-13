@@ -182,13 +182,14 @@ ahora tenemos que usarlo dos veces.</p>
 <p>Como 1 in. = 2.54 cm = 0.0254 m, entonces 1 ft2 = (12 in.)2 (0.0254 m/in.) 2 = 0.0929 m2. Entonces, 880 ft2 = (880 ft2)(0.0929 m2/ft2) $ 82 m2</p>
 <h3>NOTA</h3>
 <p>Como regla empírica,una área dada en ft2 es aproximadamente 10 veces el número de metros cuadrados (más precisamente, cerca de 10.8 *).</p>
+  
 </div>
 
 
 
 
 
-</div>
+
 <div class="mini-ventana">
 <h2>EJEMPLO 1–4</h2>
 <h3>Rapidez.</h3>
@@ -203,7 +204,6 @@ hora contiene (60 min/h) * (60 s/min) ' 3600 s/h.</p>
 <p>Ahora usamos 1 mi = 1609 m = 1.609 km; entonces,</p>
 <h3>NOTA</h3>
 <p>Cada factor de conversión es igual a uno. En los forros y las guardas de este libro se incluye una tabla con los factores de conversión más utilizados.</p>
-</div>
 </div>
 
 <div class="mini-ventana">
